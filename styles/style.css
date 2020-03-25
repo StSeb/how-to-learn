@@ -209,6 +209,8 @@ div, h1, h2, h3, ul, li {
   text-align: center;
   font-size: 36px;
   line-height: 51px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .feinman__link {
