@@ -18,7 +18,7 @@
 @import url(../styles/blocks/resources/resources.css);
 @import url(../styles/blocks/footer/footer.css);
 
-section, div, h1, h2, h3, ul, li, p, img, h1, h2, h3, h4, blockquote, figure {
+/* section, div, h1, h2, h3, ul, li, p, img, h1, h2, h3, h4, blockquote, figure {
   outline: 1px solid red;
-}
+} */
 
