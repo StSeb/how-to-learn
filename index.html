@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="pages/index.css">
 </head>
 
@@ -22,7 +21,7 @@
         <a class="header__link" href="#">Узнать &rarr;</a>
       </div>
       <div class="header__main-illustration"></div>
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
 
@@ -200,7 +199,7 @@
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img class="khan__book-pic" src="images/book.jpg" alt="Обложка книги">
-            <div><a class="khan__buy-link" href="#">Купить книгу &rarr;</a></div>
+            <a class="khan__buy-link" href="#">Купить книгу &rarr;</a>
           </div>
         </div>
       </section>
@@ -274,7 +273,7 @@
             </p>
           </div>
         </div>
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
       </section>
 
 <!-- RESOURCES -->
@@ -283,24 +282,36 @@
         <h3 class="section-title">Полезные ресурсы</h3>
         <p class="section-subtitle">Больше материалов
           о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
+        <ul class="resources__logo-zone">
 
-            <img class="resources__logo"
-            src="images/logo/arzamas.svg"
+            <li>
+              <a href="#">
+                <img class="resources__logo" src="images/logo/arzamas.svg"
             alt="Образовательный проект Арзамас">
+              </a>
+            </li>
 
-            <img class="resources__logo"
-            src="images/logo/n1.svg"
+            <li>
+              <a href="#">
+                <img class="resources__logo" src="images/logo/n1.svg"
             alt="Научно-популярное издание N+1">
+              </a>
+            </li>
 
-            <img class="resources__logo"
-            src="images/logo/strelka.svg"
+            <li>
+              <a href="#">
+                <img class="resources__logo" src="images/logo/strelka.svg"
             alt="Институт Стрелка">
+              </a>
+            </li>
 
-            <img class="resources__logo"
-            src="images/logo/polka.svg"
+            <li>
+              <a href="#">
+                <img class="resources__logo" src="images/logo/polka.svg"
             alt="Литературный проект Полка">
-        </div>
+              </a>
+            </li>
+        </ul>
       </section>
 
  </main>
@@ -311,13 +322,13 @@
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
           <div class="logo logo_place_footer"></div>
-          <div class="footer__author">&copy; 2020 Степан Гольдберг
-          </div>
+          <p class="footer__author">&copy; 2020 Степан Гольдберг
+          </p>
         </div>
         <div class="footer__column footer__column_content_info">
-          <div class="footer__column-heading">
+          <p class="footer__column-heading">
             О практикуме
-          </div>
+          </p>
           <nav>
             <ul class="footer__column-links">
               <li class="footer__links-list">
@@ -333,9 +344,9 @@
           </nav>
         </div>
         <div class="footer__column footer__column_content_social">
-          <div class="footer__column-heading">
+          <p class="footer__column-heading">
             Соцсети
-          </div>
+          </p>
           <nav>
             <ul class="footer__column-links">
               <li class="footer__links-list">
